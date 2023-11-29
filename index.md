@@ -11,7 +11,7 @@
 
 ## GitHub Username
 
-This is my [GitHub Page](https://github.com/imuhammad23csuf).
+This is my GitHub Page: [https://github.com/imuhammad23csuf](https://github.com/imuhammad23csuf)
 
 <!-- This is separated from the rest of the code -->
 
