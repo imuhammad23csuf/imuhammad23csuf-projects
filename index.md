@@ -2,6 +2,7 @@
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
 Hello,
+This is my Lab Porfolio's Home Page
 I am Ibraheem Muhammad a Computer Science Major at [California State University Fullerton] (https://www.fullerton.edu/) 🐘
  </div>
   <div style="flex: 1;">
@@ -9,7 +10,7 @@ I am Ibraheem Muhammad a Computer Science Major at [California State University 
   </div>
 </div>
 # GitHub Username
-This is my GitHub username:(https://github.com/imuhammad23csuf)
+This is my GitHub Page:(https://github.com/imuhammad23csuf)
 
 <style>
   body {
