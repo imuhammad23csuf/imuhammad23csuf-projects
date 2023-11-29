@@ -12,7 +12,11 @@
 ## GitHub Username
 
 This is my GitHub Page: [https://github.com/imuhammad23csuf](https://github.com/imuhammad23csuf)
+## Favorite Labs
 
+- [Lab 6](lab-fav.md)
+- [Lab 12](lab-fav2.md)
+- [Lab 5](lab-fav3.md)
 <!-- This is separated from the rest of the code -->
 
 <style>
