@@ -1,7 +1,7 @@
 # Introduction
 Hello,
 I am Ibraheem Muhammad a Computer Science Major at California State University Fullerton
-![Introduction Image](images/your-image-file.jpg)
+![Introduction Image](IMG_0008.JPG)
 # GitHub Username
 This is my GitHub username:[imuhammad23csuf](https://github.com/imuhammad23csuf)
 
