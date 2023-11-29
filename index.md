@@ -1,9 +1,10 @@
-# My Lab Portfolio
+# Introduction
+Hello,
+I am Ibraheem Muhammad a Computer Science Major at California State University Fullerton
+![Introduction Image](images/your-image-file.jpg)
+# GitHub Username
+This is my GitHub username:[imuhammad23csuf](https://github.com/imuhammad23csuf)
 
-- **Name:** Ibraheem Muhammad
-- **University:** California State University Fullerton
-- **Major:** Computer Science
-- **GitHub Profile:** [imuhammad23csuf](https://github.com/imuhammad23csuf)
 <style>
   body {
     font-family: 'Times New Roman', sans-serif;
