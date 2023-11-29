@@ -2,7 +2,7 @@
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
 Hello,
-I am Ibraheem Muhammad a Computer Science Major at California State University Fullerton
+I am Ibraheem Muhammad a Computer Science Major at California State University Fullerton 🐘
  </div>
   <div style="flex: 1;">
     <img src="images/IMG_0008.JPG" alt="Introduction Image" width="200">
