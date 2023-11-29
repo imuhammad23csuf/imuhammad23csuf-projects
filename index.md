@@ -1,16 +1,19 @@
 # Introduction
+
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-Hello,
-This is my Lab Porfolio's Home Page
-I am Ibraheem Muhammad a Computer Science Major at [California State University Fullerton] (https://www.fullerton.edu/) 🐘
- </div>
+    Hello, This is my Lab Portfolio's Home Page. I am Ibraheem Muhammad, a Computer Science Major at <a href="https://www.fullerton.edu/">California State University Fullerton</a> 🐘
+  </div>
   <div style="flex: 1;">
     <img src="images/IMG_0008.JPG" alt="Introduction Image" width="200">
   </div>
 </div>
-# GitHub Username
-This is my GitHub Page:(https://github.com/imuhammad23csuf)
+
+## GitHub Username
+
+This is my [GitHub Page](https://github.com/imuhammad23csuf).
+
+<!-- This is separated from the rest of the code -->
 
 <style>
   body {
@@ -19,4 +22,3 @@ This is my GitHub Page:(https://github.com/imuhammad23csuf)
     color: #000000;
   }
 </style>
-
