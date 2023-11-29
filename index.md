@@ -7,7 +7,8 @@
 <style>
   body {
     font-family: 'Times New Roman', sans-serif;
-    background-color: #2c3e50; /* Set your preferred background color */
+    background-color: #2c3e50;
+    color: #000000;
   }
 </style>
 
