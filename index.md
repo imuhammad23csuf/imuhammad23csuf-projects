@@ -5,7 +5,7 @@ Hello,
 I am Ibraheem Muhammad a Computer Science Major at California State University Fullerton
  </div>
   <div style="flex: 1;">
-    <img src="IMG_0008.JPG" alt="Introduction Image" width="200">
+    <img src="images/IMG_0008.JPG" alt="Introduction Image" width="200">
   </div>
 </div>
 # GitHub Username
