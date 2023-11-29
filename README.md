@@ -1,2 +1,2 @@
 # imuhammad23csuf.github.io
-My CPSC 120 Lab Porfolio for CSUF
+Welcome to my Lab Portfolio Where you find exciting labs done in C++
