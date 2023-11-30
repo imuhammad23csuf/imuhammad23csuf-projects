@@ -20,7 +20,8 @@ Write code that uses both loops and if statements
 
 #### Lab 12
 
-###### What I liiked about this lab
+###### What I liked about this lab
+
 #### Lab 8
 
 ###### What I liked about this lab
@@ -30,7 +31,8 @@ Write code that uses both loops and if statements
 <style>
   body {
     font-family: 'Times New Roman', sans-serif;
-    background-color: #2c3e50;
+  background-image: url('https://avatars.mds.yandex.net/i?id=e3e96704def1476a36c3f5a8202d163669cce82d-9391207-images-thumbs&n=13');
+  background-size: cover;
     color: #000000;
   }
 </style>
