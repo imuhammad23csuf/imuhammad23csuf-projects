@@ -9,17 +9,22 @@
   </div>
 </div>
 
-## GitHub Username
+# GitHub Username
 
 This is my GitHub Page: [https://github.com/imuhammad23csuf](https://github.com/imuhammad23csuf)
 ## Favorite Labs
 
 #### Lab 6 
 Write code that uses both loops and if statements 
+##### What I liked about this lab
+
 #### Lab 12
--
+
+###### What I liiked about this lab
 #### Lab 8
--
+
+###### What I liked about this lab
+
 <!-- This is separated from the rest of the code -->
 
 <style>
