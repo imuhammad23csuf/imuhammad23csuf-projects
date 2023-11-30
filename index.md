@@ -15,17 +15,26 @@ This is my GitHub Page: [https://github.com/imuhammad23csuf](https://github.com/
 
 # Favorite CPSC 120 Labs 
 
-1. [Lab 6](#lab-6)
-2. [Lab 1](#lab-1)
-3. [Lab 12](#lab-12)
+## Lab 6
+
+Lab 6 description goes here. Mention what you liked about Lab 6 and the realized learning objectives.
+
+## Lab 1
+
+Lab 1 description goes here. Mention what you liked about Lab 1 and the realized learning objectives.
+
+## Lab 12
+
+Lab 12 description goes here. Mention what you liked about Lab 12 and the realized learning objectives.
 
 <!-- This is separated from the rest of the code -->
 
 <style>
   body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #000000;
+    background: url("https://source.unsplash.com/1600x900/?computer,code") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff; /* Text color on a background image */
     margin: 20px;
     padding: 20px;
   }
@@ -42,50 +51,4 @@ This is my GitHub Page: [https://github.com/imuhammad23csuf](https://github.com/
   a {
     color: #007bff;
   }
-
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  ul li {
-    margin-bottom: 10px;
-  }
-
-  div {
-    margin-bottom: 20px;
-  }
 </style>
-
-## Lab 6
-
-### Description
-Lab 6 description goes here.
-
-### What I Liked
-Mention what you liked about Lab 6.
-
-### Realized Learning Objectives
-Identify the learning objectives realized in Lab 6.
-
-## Lab 1
-
-### Description
-Lab 1 description goes here.
-
-### What I Liked
-Mention what you liked about Lab 1.
-
-### Realized Learning Objectives
-Identify the learning objectives realized in Lab 1.
-
-## Lab 12
-
-### Description
-Lab 12 description goes here.
-
-### What I Liked
-Mention what you liked about Lab 12.
-
-### Realized Learning Objectives
-Identify the learning objectives realized in Lab 12.
