@@ -32,7 +32,7 @@ Lab 12 description goes here. Mention what you liked about Lab 12 and the realiz
 <style>
   body {
     font-family: 'Arial', sans-serif;
-    background: url("https://source.unsplash.com/1600x900/?computer,code") no-repeat center center fixed;
+    background: url("[https://source.unsplash.com/1600x900/?computer,code](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhackernoon.com%2Fimages%2Ff2px36fy.gif&f=1&nofb=1&ipt=5dcc517a9a0ee737b334433882bac8cb82629699c726c90d0067a688f3a4efe4&ipo=images)") no-repeat center center fixed;
     background-size: cover;
     color: #ffffff; /* Text color on a background image */
     margin: 20px;
