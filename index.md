@@ -15,17 +15,17 @@ This is my GitHub Page: [https://github.com/imuhammad23csuf](https://github.com/
 
 # Favorite CPSC 120 Labs 
 
-## Lab 6
+## Lab 6 
 
 Lab 6 description goes here. Mention what you liked about Lab 6 and the realized learning objectives.
 
-## Lab 1
+## [Lab 1] (https://github.com/imuhammad23csuf/CPSC-120-Lab-1.git)
 
 Lab 1 description goes here. Mention what you liked about Lab 1 and the realized learning objectives.
 
-## Lab 12
+## Lab 11
 
-Lab 12 description goes here. Mention what you liked about Lab 12 and the realized learning objectives.
+Lab 11 description goes here. Mention what you liked about Lab 12 and the realized learning objectives.
 
 <!-- This is separated from the rest of the code -->
 
