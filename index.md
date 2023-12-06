@@ -2,7 +2,7 @@
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    Hello, This is my Lab Portfolio's Home Page. I am Ibraheem Muhammad, a Computer Science Major at <a href="https://www.fullerton.edu/">California State University Fullerton</a> 🐘
+    Hello, This is my Lab Portfolio's Home Page. I am Ibraheem Muhammad, a Computer Science Major at <a href="https://www.fullerton.edu/">California State University Fullerton</a> 🐘.
   </div>
   <div style="flex: 1;">
     <img src="images/IMG_0008.JPG" alt="Introduction Image" width="200">
