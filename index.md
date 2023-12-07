@@ -29,7 +29,6 @@ Lab 11 description goes here. Mention what you liked about Lab 12 and the realiz
   <div style="flex: 1;">
     <img src="images/Lab6.gif" alt="Lab 6 Image" width="800">
   </div>
-</div>
 <!-- This is separated from the rest of the code -->
 
 <style>
