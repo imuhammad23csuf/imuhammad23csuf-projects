@@ -15,19 +15,25 @@ This is my GitHub Page: [https://github.com/imuhammad23csuf](https://github.com/
 
 # Favorite CPSC 120 Labs 
 
-* [Lab 6](https://github.com/imuhammad23csuf/CPSC-120-Lab6.git)
-
-Lab 6 description goes here. Mention what you liked about Lab 6 and the realized learning objectives.
-* [Lab 1](https://github.com/imuhammad23csuf/CPSC-120-Lab-1.git)
-
-Lab 1 description goes here. Mention what you liked about Lab 1 and the realized learning objectives.
-
-* [Lab 11](https://github.com/imuhammad23csuf/CPSC-120-Lab11.git)
-
-Lab 11 description goes here. Mention what you liked about Lab 12 and the realized learning objectives.
+* [Lab 6 Part-1](https://github.com/imuhammad23csuf/CPSC-120-Lab6.git)
+I used factors like meat, loaf, and condiments and mastered creating a sandwich program. Using these factors made it engaging. I learned how to use loops and if statements effectively.
  </div>
   <div style="flex: 1;">
-    <img src="images/Lab6.gif" alt="Lab 6 Image" width="800">
+    <img src="images/lab6.gif" alt="Lab 1 Image" width="800">
+  </div>
+* [Lab 1 Part-1](https://github.com/imuhammad23csuf/CPSC-120-Lab-1.git)
+ </div>
+  <div style="flex: 1;">
+    <img src="images/Lab1.gif" alt="Lab 1 Image" width="800">
+  </div>
+I used std::cout to print my name in the terminal. It helped me understand the standard library better. I also learned how to include a library using the #include function.
+
+* [Lab 11 Part-1](https://github.com/imuhammad23csuf/CPSC-120-Lab11.git)
+
+ I defined the pizza calorie count calculation using size and toppings. The lab was very engaging upon applying these factors. It helped me understand object-oriented programming and its applications better.
+ </div>
+  <div style="flex: 1;">
+    <img src="images/Lab11.gif" alt="Lab 11 Image" width="800">
   </div>
 <!-- This is separated from the rest of the code -->
 
