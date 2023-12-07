@@ -18,7 +18,11 @@ This is my GitHub Page: [https://github.com/imuhammad23csuf](https://github.com/
 * [Lab 6](https://github.com/imuhammad23csuf/CPSC-120-Lab6.git)
 
 Lab 6 description goes here. Mention what you liked about Lab 6 and the realized learning objectives.
-
+  </div>
+  <div style="flex: 1;">
+    <img src="images/Lab6.gif" alt="Introduction Image" width="200">
+  </div>
+</div>
 * [Lab 1](https://github.com/imuhammad23csuf/CPSC-120-Lab-1.git)
 
 Lab 1 description goes here. Mention what you liked about Lab 1 and the realized learning objectives.
