@@ -5,7 +5,7 @@
     Hello, This is my Lab Portfolio's Home Page. I am Ibraheem Muhammad, a Computer Science Major at <a href="https://www.fullerton.edu/">California State University Fullerton</a> 🐘.
   </div>
   <div style="flex: 1;">
-    <img src="images/IMG_0008.JPG" alt="Introduction Image" width="800">
+    <img src="images/IMG_0008.JPG" alt="Introduction Image" width="200">
   </div>
 </div>
 
@@ -20,7 +20,7 @@ This is my GitHub Page: [https://github.com/imuhammad23csuf](https://github.com/
 Lab 6 description goes here. Mention what you liked about Lab 6 and the realized learning objectives.
   </div>
   <div style="flex: 1;">
-    <img src="images/Lab6.gif" alt="Lab 6 Image" width="200">
+    <img src="images/Lab6.gif" alt="Lab 6 Image" width="800">
   </div>
 </div>
 * [Lab 1](https://github.com/imuhammad23csuf/CPSC-120-Lab-1.git)
