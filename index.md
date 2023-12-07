@@ -18,11 +18,6 @@ This is my GitHub Page: [https://github.com/imuhammad23csuf](https://github.com/
 * [Lab 6](https://github.com/imuhammad23csuf/CPSC-120-Lab6.git)
 
 Lab 6 description goes here. Mention what you liked about Lab 6 and the realized learning objectives.
-  </div>
-  <div style="flex: 1;">
-    <img src="images/Lab6.gif" alt="Lab 6 Image" width="800">
-  </div>
-</div>
 * [Lab 1](https://github.com/imuhammad23csuf/CPSC-120-Lab-1.git)
 
 Lab 1 description goes here. Mention what you liked about Lab 1 and the realized learning objectives.
@@ -30,7 +25,11 @@ Lab 1 description goes here. Mention what you liked about Lab 1 and the realized
 * [Lab 11](https://github.com/imuhammad23csuf/CPSC-120-Lab11.git)
 
 Lab 11 description goes here. Mention what you liked about Lab 12 and the realized learning objectives.
-
+ </div>
+  <div style="flex: 1;">
+    <img src="images/Lab6.gif" alt="Lab 6 Image" width="800">
+  </div>
+</div>
 <!-- This is separated from the rest of the code -->
 
 <style>
