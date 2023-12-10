@@ -7,68 +7,29 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles.css">
     <style>
+        /* Your existing styles */
+
         body {
             scroll-behavior: smooth;
             margin: 0;
             padding: 0;
             font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa;
-            color: #343a40;
-        }
-
-        header {
-            background-color: #007bff;
-            color: #fff; /* Change text color to white */
-            text-align: center;
-            padding: 1em 0;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 24px;
-            color: #fff; /* Set text color to white */
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav li {
-            display: inline-block;
-            margin-right: 20px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        .section {
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        .welcome-message {
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .flex-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .flex-item {
-            flex: 1;
+            background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhackernoon.com%2Fimages%2Ff2px36fy.gif&f=1&nofb=1&ipt=5dcc517a9a0ee737b334433882bac8cb82629699c726c90d0067a688f3a4efe4&ipo=images") no-repeat center center fixed;
+            background-size: cover;
+            color: #f0e995; /* Text color on a background image */
             margin: 20px;
+            padding: 20px;
+        }
+
+        /* Other styles... */
+
+        .audio-section {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .audio-description {
+            color: #fff;
         }
     </style>
 </head>
@@ -78,6 +39,7 @@
         <h1>Ibraheem Muhammad's CyberSpace</h1>
         <nav>
             <ul>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="#github">GitHub</a></li>
@@ -86,12 +48,27 @@
     </header>
 
     <div id="introduction" class="section">
-        <div class="welcome-message">
-            <p>Hello! Welcome to my Portfolio's homepage. Feel free to check out the projects I've been working on.</p>
+        <div class="flex-container">
+            <div class="flex-item">
+                <p>Hello! Welcome to my Portfolio's homepage. Feel free to check out the projects I've been working on.</p>
+            </div>
+            <div class="flex-item">
+            </div>
         </div>
     </div>
 
-    <!-- Include other sections as needed -->
+    <!-- Other sections... -->
+
+    <!-- Audio Section -->
+    <div class="audio-section">
+        <p class="audio-description">Click the play button to hear the sound:</p>
+        <audio controls>
+            <source src="your-audio-file.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <!-- Other sections... -->
 
 </body>
 </html>
