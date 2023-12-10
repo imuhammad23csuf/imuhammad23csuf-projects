@@ -14,6 +14,7 @@
             background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhackernoon.com%2Fimages%2Ff2px36fy.gif&f=1&nofb=1&ipt=5dcc517a9a0ee737b334433882bac8cb82629699c726c90d0067a688f3a4efe4&ipo=images") no-repeat center center fixed;
             background-size: cover;
             color: #f0e995;
+            text-align: center;
         }
 
         header {
@@ -48,7 +49,6 @@
 
         .section {
             padding: 40px 20px;
-            text-align: center;
         }
 
         .welcome-message {
@@ -56,23 +56,13 @@
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .flex-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .flex-item {
-            flex: 1;
-            margin: 20px;
+            margin: 0 auto; /* Center the container */
+            max-width: 600px; /* Set a max-width for better readability */
         }
 
         .audio-section {
             text-align: center;
             margin-top: 20px;
-            display: none;
         }
 
         .audio-description {
@@ -93,7 +83,6 @@
             background-color: #0056b3;
         }
 
-        /* Additional styling for a more modern look */
         p {
             font-size: 18px;
             line-height: 1.6;
@@ -121,7 +110,6 @@
         <h1>Ibraheem Muhammad's CyberSpace</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="#github">GitHub</a></li>
@@ -130,31 +118,30 @@
     </header>
 
     <div id="introduction" class="section">
-        <div class="flex-container">
-            <div class="flex-item">
-                <p>Hello! Welcome to my Portfolio's homepage. Feel free to check out the projects I've been working on.</p>
-            </div>
-            <div class="flex-item">
-            </div>
+        <div class="welcome-message">
+            <p>Hello! Welcome to my Portfolio's homepage. Feel free to check out the projects I've been working on.</p>
         </div>
     </div>
 
     <!-- Audio Section -->
     <div class="audio-section" id="audioSection">
-        <p class="audio-description">Click the play button to hear the sound:</p>
-        <audio controls>
-            <source src="your-audio-file.mp3" type="audio/mp3">
+        <p class="audio-description">Enjoy the automatic sound:</p>
+        <audio controls autoplay id="myAudio">
+            <source src="Futuristic SciFI Computer Language Binary Code Interface Sound Effects.mp3" type="audio/mp3">
             Your browser does not support the audio element.
         </audio>
+        <button class="toggle-button" onclick="toggleAudio()">Toggle Audio</button>
     </div>
 
-    <!-- Toggle button for Audio Section -->
-    <button class="toggle-button" onclick="toggleAudioSection()">Audio is Annoying?</button>
-
     <script>
-        function toggleAudioSection() {
-            var audioSection = document.getElementById("audioSection");
-            audioSection.style.display = (audioSection.style.display === "none") ? "block" : "none";
+        function toggleAudio() {
+            var audio = document.getElementById("myAudio");
+
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
         }
     </script>
 
