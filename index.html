@@ -7,26 +7,72 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Your existing styles */
-
         body {
-            scroll-behavior: smooth;
             margin: 0;
             padding: 0;
             font-family: 'Arial', sans-serif;
             background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhackernoon.com%2Fimages%2Ff2px36fy.gif&f=1&nofb=1&ipt=5dcc517a9a0ee737b334433882bac8cb82629699c726c90d0067a688f3a4efe4&ipo=images") no-repeat center center fixed;
             background-size: cover;
-            color: #f0e995; /* Text color on a background image */
-            margin: 20px;
-            padding: 20px;
+            color: #f0e995;
         }
 
-        /* Other styles... */
+        header {
+            background-color: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #007bff;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .welcome-message {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .flex-item {
+            flex: 1;
+            margin: 20px;
+        }
 
         .audio-section {
             text-align: center;
             margin-top: 20px;
-            display: none; /* Hide the audio section by default */
+            display: none;
         }
 
         .audio-description {
@@ -40,6 +86,32 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-size: 16px;
+        }
+
+        .toggle-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Additional styling for a more modern look */
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #fff;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -67,8 +139,6 @@
         </div>
     </div>
 
-    <!-- Other sections... -->
-
     <!-- Audio Section -->
     <div class="audio-section" id="audioSection">
         <p class="audio-description">Click the play button to hear the sound:</p>
@@ -81,9 +151,6 @@
     <!-- Toggle button for Audio Section -->
     <button class="toggle-button" onclick="toggleAudioSection()">Audio is Annoying?</button>
 
-    <!-- Other sections... -->
-
-    <!-- Script to toggle the visibility of the audio section -->
     <script>
         function toggleAudioSection() {
             var audioSection = document.getElementById("audioSection");
