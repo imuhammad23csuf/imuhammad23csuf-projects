@@ -61,36 +61,6 @@
             color: #000; /* Set text color to black */
         }
 
-        .audio-section {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .audio-description {
-            color: #fff;
-        }
-
-        audio {
-            display: none; /* Hide the audio element by default */
-            width: 100%;
-            max-width: 300px; /* Set a max-width for better readability */
-        }
-
-        .toggle-audio-button {
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            margin-top: 10px;
-        }
-
-        .toggle-audio-button:hover {
-            background-color: #0056b3;
-        }
-
         p {
             font-size: 18px;
             line-height: 1.6;
@@ -116,23 +86,6 @@
             <p>Hello! Welcome to my Portfolio's homepage. Feel free to check out the projects I've been working on.</p>
         </div>
     </div>
-
-    <!-- Audio Section -->
-    <div class="audio-section" id="audioSection">
-        <p class="audio-description"></p>
-        <audio id="myAudio" controls>
-            <source src="Computer Calculating Sound Effect.mp3" type="audio/mp3">
-        
-        </audio>
-        <button class="toggle-audio-button" onclick="toggleAudio()">Audio</button>
-    </div>
-
-    <script>
-        function toggleAudio() {
-            var audio = document.getElementById("myAudio");
-            audio.style.display = audio.style.display === "none" ? "block" : "none";
-        }
-    </script>
 
 </body>
 </html>
