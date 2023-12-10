@@ -136,12 +136,7 @@
     <script>
         function toggleAudio() {
             var audio = document.getElementById("myAudio");
-
-            if (audio.paused) {
-                audio.play();
-            } else {
-                audio.pause();
-            }
+            audio.paused ? audio.play() : audio.pause();
         }
     </script>
 
