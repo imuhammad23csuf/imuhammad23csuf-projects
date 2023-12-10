@@ -26,10 +26,20 @@
         .audio-section {
             text-align: center;
             margin-top: 20px;
+            display: none; /* Hide the audio section by default */
         }
 
         .audio-description {
             color: #fff;
+        }
+
+        .toggle-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -60,7 +70,7 @@
     <!-- Other sections... -->
 
     <!-- Audio Section -->
-    <div class="audio-section">
+    <div class="audio-section" id="audioSection">
         <p class="audio-description">Click the play button to hear the sound:</p>
         <audio controls>
             <source src="your-audio-file.mp3" type="audio/mp3">
@@ -68,7 +78,18 @@
         </audio>
     </div>
 
+    <!-- Toggle button for Audio Section -->
+    <button class="toggle-button" onclick="toggleAudioSection()">Audio is Annoying?</button>
+
     <!-- Other sections... -->
+
+    <!-- Script to toggle the visibility of the audio section -->
+    <script>
+        function toggleAudioSection() {
+            var audioSection = document.getElementById("audioSection");
+            audioSection.style.display = (audioSection.style.display === "none") ? "block" : "none";
+        }
+    </script>
 
 </body>
 </html>
