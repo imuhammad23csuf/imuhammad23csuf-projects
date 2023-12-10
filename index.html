@@ -71,8 +71,24 @@
         }
 
         audio {
+            display: none; /* Hide the audio element by default */
             width: 100%;
             max-width: 300px; /* Set a max-width for better readability */
+        }
+
+        .toggle-audio-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .toggle-audio-button:hover {
+            background-color: #0056b3;
         }
 
         p {
@@ -105,10 +121,17 @@
     <div class="audio-section" id="audioSection">
         <p class="audio-description">Enjoy the sound:</p>
         <audio id="myAudio" controls>
-            <source src="Futuristic SciFI Computer Language Binary Code Interface Sound Effects.mp3" type="audio/mp3">
-            Your browser does not support the audio element.
+            <source src="audio.mp3" type="audio/mp3">
         </audio>
+        <button class="toggle-audio-button" onclick="toggleAudio()">Toggle Audio</button>
     </div>
+
+    <script>
+        function toggleAudio() {
+            var audio = document.getElementById("myAudio");
+            audio.style.display = audio.style.display === "none" ? "block" : "none";
+        }
+    </script>
 
 </body>
 </html>
