@@ -6,11 +6,70 @@
     <title>About Me - Ibraheem Muhammad's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles specific to the about.html page */
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhackernoon.com%2Fimages%2Ff2px36fy.gif&f=1&nofb=1&ipt=5dcc517a9a0ee737b334433882bac8cb82629699c726c90d0067a688f3a4efe4&ipo=images") no-repeat center center fixed;
+            background-size: cover;
+            color: #f0e995; /* Text color on a background image */
+            margin: 20px;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            color: #007bff;
+        }
+
+        p {
+            text-align: left;
+            line-height: 1.6;
+            color: #343a40;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .flex-item {
+            flex: 1;
+        }
+    </style>
 </head>
 <body>
 
     <div id="about" class="section">
         <div class="flex-container">
+            <div class="flex-item">
+                <img src="images/IMG_0008.JPG" alt="Introduction Image" width="400">
+            </div>
             <div class="flex-item">
                 <h2>About Me</h2>
                 <p>Hello! I am Ibraheem Muhammad, a Computer Science Major at <a href="https://www.fullerton.edu/">California State University Fullerton</a>, expected to graduate in May 2026.</p>
@@ -18,9 +77,6 @@
                 <!-- Add more information about yourself as needed -->
 
                 <p><a href="index.html" class="back-button">Back to Home</a></p>
-            </div>
-            <div class="flex-item">
-                <img src="images/IMG_0008.JPG" alt="Introduction Image" width="400">
             </div>
         </div>
     </div>
