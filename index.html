@@ -4,67 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ibraheem Muhammad's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="style.css"> <!-- Make sure to include your custom stylesheets -->
     <style>
         body {
-            scroll-behavior: smooth;
             font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        header {
-            background-color: #007bff;
-            color: #fff;
+            background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhackernoon.com%2Fimages%2Ff2px36fy.gif&f=1&nofb=1&ipt=5dcc517a9a0ee737b334433882bac8cb82629699c726c90d0067a688f3a4efe4&ipo=images") no-repeat center center fixed;
+            background-size: cover;
+            color: #f0e995; /* Text color on a background image */
+            margin: 20px;
             padding: 20px;
-            text-align: center;
         }
 
-        nav {
-            margin-top: 20px;
+        img {
+            max-width: 100%;
+            height: auto;
         }
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
+        h1, h2, h3, h4, h5, h6 {
+            color: #007bff;
+        }
+
+        a {
+            color: #007bff;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .flex-container {
             display: flex;
-            justify-content: center;
+            align-items: center;
         }
 
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-            font-size: 18px;
-            transition: color 0.3s ease;
-        }
-
-        nav a:hover {
-            color: #0056b3;
+        .flex-item {
+            flex: 1;
         }
     </style>
 </head>
 <body>
 
-    <header>
-        <h1>Ibraheem Muhammad's Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="github.html">GitHub</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="home" class="section">
+        <div class="flex-container">
+            <div class="flex-item">
+                <h1>Welcome to My Portfolio</h1>
+                <p>Here you'll find exciting projects I've worked on, from animation to creating games.</p>
+            </div>
+            <div class="flex-item">
+                <img src="images/IMG_0008.JPG" alt="Introduction Image" width="400">
+            </div>
+        </div>
+    </div>
 
-    <!-- Include other sections as needed -->
+    <!-- Add more sections and content as needed -->
 
 </body>
 </html>
