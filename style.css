@@ -2,33 +2,42 @@ body {
     font-family: 'Arial', sans-serif;
     background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhackernoon.com%2Fimages%2Ff2px36fy.gif&f=1&nofb=1&ipt=5dcc517a9a0ee737b334433882bac8cb82629699c726c90d0067a688f3a4efe4&ipo=images") no-repeat center center fixed;
     background-size: cover;
-    color: #f0e995; /* Text color on a background image */
-    margin: 20px;
-    padding: 20px;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 .section {
-    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .flex-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .flex-item {
     flex: 1;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #007bff;
+.back-button:hover {
+    background-color: #0056b3;
 }
 
-a {
-    color: #007bff;
+.circular-image {
+    border-radius: 50%;
+    width: 150px; /* Adjust the size as needed */
+    height: 150px;
+    object-fit: cover;
 }
