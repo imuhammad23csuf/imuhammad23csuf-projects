@@ -2,9 +2,45 @@ body {
     font-family: 'Arial', sans-serif;
     background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhackernoon.com%2Fimages%2Ff2px36fy.gif&f=1&nofb=1&ipt=5dcc517a9a0ee737b334433882bac8cb82629699c726c90d0067a688f3a4efe4&ipo=images") no-repeat center center fixed;
     background-size: cover;
-    color: #f0e995; /* Text color on a background image */
-    margin: 20px;
+    color: #f0e995;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
     padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0056b3;
 }
 
 .section {
